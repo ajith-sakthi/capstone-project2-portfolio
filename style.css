@@ -1,0 +1,110 @@
+body{
+    background-color:rgb(20, 18, 18);
+    color:white;
+    
+    
+}
+.portfolio{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.mr{
+    margin-right:300px;
+}
+.nav-links li{
+    display:inline-block;
+    margin-right:50px;
+}
+.nav-links{
+    padding-left:0;
+}
+.nav-links li>a{
+    color:white;
+    text-decoration: none;
+    padding:15px;
+    border-radius:5px;
+}
+.heading{
+    display:flex;
+    height:550px;
+    justify-content:space-around;
+    align-items: center;
+}
+.first{
+    font-size:2rem;
+    padding:10px;
+}
+.second{
+    font-size:4rem;
+}
+.third{
+    font-size:2rem;
+}
+.image>img{
+    border:1px solid rgba(255, 99, 71, 0.514);
+    border-radius:50%;
+} 
+.skills h3,p{
+    margin:0;
+}
+.skills{
+    display:flex;
+    justify-content: space-around;
+}
+.size{
+    width:25%;
+}
+.size img{
+    border:1px solid rgba(255, 255, 255, 0.349);
+    border-radius:5px;
+    margin-bottom:2%;
+}
+.left-margin{
+    padding-left:5%;
+    margin-top:5%;
+}
+.size h3{
+    margin-bottom:2%;
+}
+.about-me{
+    display:flex;
+    justify-content:space-around;
+    height:300px;
+}
+.about-me img{
+    border-radius:50%;
+}
+.about-image{
+    width:50%;
+    text-align:center;
+}
+
+.about{
+    padding-left:15%;
+    margin-top:5%;
+    width:400px;
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+.home a{
+    color:white;
+    text-decoration: none;
+}
+address{
+    margin-bottom:5%;
+}
+.nav-links a:hover{
+    background-color:tomato;
+    border-radius:5px;
+    transition: 0.9s;
+}
+.home a:hover{
+    background-color:tomato;
+    border-radius:5px;
+    transition: 0.9s;
+    padding:10px;
+}
